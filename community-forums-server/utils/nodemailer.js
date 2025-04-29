@@ -5,13 +5,13 @@ const sendEmail = async (options) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: "admin@ismaindia.org",
-      pass: "asfl koop fvuv swau",
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_PASS,
     }
   });
 
   const mailOptions = {
-    from: '"Community Forum" admin@ismaindia.org',
+    from:  process.env.GMAIL_USER,
     to: options.email,
     subject: options.subject,
     text: options.text,
