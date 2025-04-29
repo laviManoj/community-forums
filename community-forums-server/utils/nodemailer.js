@@ -11,7 +11,7 @@ const sendEmail = async (options) => {
   });
 
   const mailOptions = {
-    from: '"Community Forum" manojh.moshimoshi@gmail.com',
+    from: '"Community Forum" admin@ismaindia.org',
     to: options.email,
     subject: options.subject,
     text: options.text,
