@@ -62,7 +62,7 @@ const Login = () => {
               {isLoading && <div className="loader"></div>}
               <h3 className="text-center">Login</h3>
               <p className="text-center">
-                Welcome to ONetwork, a platform to connect with the world.
+                Welcome to Community Forums, a platform to connect with the world.
               </p>
               {message && (
                 <div
