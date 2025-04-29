@@ -1,6 +1,6 @@
 # <p align="center">🌐 Community forum</p>
 
-<p align="center"> ![image](https://github.com/user-attachments/assets/fe0e5d9b-4852-402f-95e6-f1b5dd84901b)
+<p align="center"><img src="https://github.com/ilyasbelfar/Community-forum/blob/main/images/Capture_Forum.PNG" alt="Community forum Capture" style="max-width: 100% !important">
 </p>
 <p align="center">✨🚀<em>Full-stack forum website built with MERN Stack (ReactJS, NodeJS, ExpressJS, MongoDB).</em>✨🚀</p>
 
