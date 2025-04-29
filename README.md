@@ -47,7 +47,7 @@
 
 ```
 git clone  https://github.com/laviManoj/community-forums
-cd ONetwork-Forum
+cd Community-Forum
 ```
 
 <p align="center"><strong>2- Install Client dependencies.</strong></p>
@@ -88,9 +88,3 @@ npm start
 ```
 
 ---
-
-## <p align="center">📌 Other 📌</p>
-
-<br>
-<p align="center">I encourages contributions! Feel free to discuss any bug fixes/features in the issues section. And if you wish to work on this project:</p>
-
