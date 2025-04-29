@@ -25,12 +25,24 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use(helmet());
 app.use(fileUpload({ useTempFiles: true, tempFileDir: "./tmp" }));
+const allowedOrigins = [
+  "https://community-forum-by-manoj.netlify.app",
+  "http://localhost:3000", // if testing locally
+];
+
 app.use(
   cors({
-    origin: "*",
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
   })
 );
+
 
 
 app.use("/", authRoutes);
