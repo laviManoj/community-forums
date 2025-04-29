@@ -46,7 +46,7 @@
 <p align="center"><strong>1- Clone this repo.</strong></p>
 
 ```
-git clone https://github.com/ilyasbelfar/ONetwork-Forum.git
+git clone  https://github.com/laviManoj/community-forums
 cd ONetwork-Forum
 ```
 
