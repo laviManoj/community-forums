@@ -362,7 +362,7 @@ module.exports = (user, token) => `
                                                                     </p>
                                                                     <p style="font-size: 14px; line-height: 190%;">
                                                                         <span style="font-size: 18px; line-height: 34.2px;">
-                                                                            <strong><span style="line-height: 34.2px; font-size: 18px;">ONetwork Owner.</span></strong>
+                                                                            <strong><span style="line-height: 34.2px; font-size: 18px;">Community Forums Owner.</span></strong>
                                                                         </span>
                                                                         <span style="font-size: 16px; line-height: 30.4px;"></span>
                                                                     </p>
