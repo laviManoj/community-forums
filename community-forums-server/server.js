@@ -27,10 +27,11 @@ app.use(helmet());
 app.use(fileUpload({ useTempFiles: true, tempFileDir: "./tmp" }));
 app.use(
   cors({
-    origin: process.env.REACT_APP_URL,
+    origin: "*",
     credentials: true,
   })
 );
+
 
 app.use("/", authRoutes);
 app.use("/api/topics", topicRoutes);
